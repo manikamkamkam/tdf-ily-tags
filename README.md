@@ -7,6 +7,7 @@ This system DOES NOT allow the users to delete their data from the system.
 To start the application, create a virtual environment (referring to this as venv from now on) to run your python scripts with: 
 
 **WINDOWS**: *venv\Scripts\activate*
+
 **MACOS/LINUX**: *source venv/bin/activate*
 
 While you are in the venv, install the required modules: 
