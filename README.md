@@ -12,10 +12,12 @@ To start the application, create a virtual environment (referring to this as ven
 
 While you are in the venv, install the required modules: 
 *pip install cryptography* or *pip3 install cryptography*
+
 We will use the cryptography module because it has the required hashing and encrypting tools we need for this application. 
 
 Check that you have installed the cryptography module by typing in:
 *pip show cryptography*
+
 This is a step I would not skip as some devices may have the python installed in weird places -> if this is you, use pip3/python3 commands for the download and running of the application. This worked for me as I'm runnning Monterey so you will need to run it on your own to see what works.
 
 After you have verified the module installation, run the application to register your first user:
@@ -33,6 +35,7 @@ While in register mode, your user WILL NOT be able to use the 2nd option without
 
 You can log in to the system by running: 
 *python script.py --register* or *python3 script.py --register*
+
 After you have logged in, you still have the same menu options. You are also able to view the data that you have filled in while you were in register mode. 
 
 The data will be encrypted and stored in a JSON file for ease of access and security. Other than that, the user will be logged out of the system after a minute of inactivity. 
